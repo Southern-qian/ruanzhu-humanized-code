@@ -84,7 +84,7 @@ python3 scripts/humanize_audit.py <项目目录> --gate --min-comment 0.30  # �
 | 指标 | 默认门槛 | 说明 |
 |---|---|---|
 | 注释率 | 20% – 35% | (注释行+docstring行)/代码行 |
-| 拼音标识符占比 | 10% – 60% | 按词表整词匹配（下划线/camel 分段），见 references/pinyin-wordlist.md |
+| 拼音标识符占比 | 10% – 60% | 按词表整词匹配（下划线/camel 分段），见 references/pinyin-wordlist.md；此为宽机械门，改写目标带以 SKILL.md 为准（25-45%） |
 | emoji 数 | = 0 | 注释与代码字符串 |
 | 纯英文注释行 | = 0 | 编码声明/shebang 除外 |
 | Google docstring | = 0 | `Args:/Returns:` 等 |
